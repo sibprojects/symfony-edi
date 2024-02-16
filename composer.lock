@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c7e3dbdfc97c282707609d966719896",
+    "content-hash": "987a6ba714444c70f8e5cbfa65579471",
     "packages": [
         {
             "name": "psr/cache",
@@ -207,6 +207,71 @@
                 "source": "https://github.com/php-fig/log/tree/3.0.0"
             },
             "time": "2021-07-14T16:46:02+00:00"
+        },
+        {
+            "name": "sabas/edifact",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-edifact/edifact.git",
+                "reference": "29498658298fa9df8d9fe5763bfd7353ec3b6658"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-edifact/edifact/zipball/29498658298fa9df8d9fe5763bfd7353ec3b6658",
+                "reference": "29498658298fa9df8d9fe5763bfd7353ec3b6658",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-simplexml": "*",
+                "php": "~8"
+            },
+            "require-dev": {
+                "php-edifact/edifact-mapping": "dev-master",
+                "phpunit/phpunit": "~9.0",
+                "symplify/easy-coding-standard": "^12.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "EDI\\": "src/EDI/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Stefano Sabatini",
+                    "email": "sabas88@gmail.com",
+                    "homepage": "http://stefanosabatini.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Uldis Nelsons",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Emil Vikström",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Tools in PHP for UN/EDIFACT",
+            "homepage": "https://github.com/php-edifact/edifact",
+            "keywords": [
+                "container",
+                "edi",
+                "edifact",
+                "message"
+            ],
+            "support": {
+                "issues": "https://github.com/php-edifact/edifact/issues",
+                "source": "https://github.com/php-edifact/edifact/tree/1.0.0"
+            },
+            "time": "2023-10-25T12:42:30+00:00"
         },
         {
             "name": "symfony/cache",
